@@ -1,0 +1,12 @@
+{
+  "name": "first-proj",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "tailwindcss": "^3.3.3"
+  },
+  "scripts": {
+    "build": "tailwind build -i src/styles.css -o public/styles.css --watch"
+  }
+}

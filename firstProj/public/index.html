@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Tailwind</title>
+  </head>
+  <body>
+    <!-- <div class="container mx-auto bg-red-500">This is a div el</div> -->
+    <!-- <div class="bg-red-500 w-4">This is a div el</div> -->
+    <!-- <div class="bg-yellow-500 w-auto flex flex-wrap">
+      <div class="h-10 w-80 bg-red-500">1</div>
+      <div class="h-10 w-80 bg-blue-500">2</div>
+      <div class="h-10 w-80 bg-green-500">3</div>
+    </div> -->
+
+    <div
+      class="container grid grid-cols-[repeat(14, 76px)] grid-rows-[repeat(11,40px)] w-1/2 mx-auto"
+    >
+      <div
+        class="bg-red-50 md:bg-red-200 lg:bg-red-500 col-start-3 col-span-3 row-start-2 row-span-2 border-2"
+      >
+        <div class="h-20"></div>
+      </div>
+      <div
+        class="bg-yellow-500 col-start-2 col-span-3 row-start-5 row-span-2"
+      ></div>
+      <div
+        class="bg-blue-500 col-start-3 col-span-3 row-start-8 row-span-2"
+      ></div>
+      <div
+        class="bg-green-500 col-start-10 col-span-3 row-start-2 row-span-2"
+      ></div>
+      <div
+        class="bg-gray-500 col-start-11 col-span-3 row-start-5 row-span-2"
+      ></div>
+      <div
+        class="bg-violet-500 col-start-10 col-span-3 row-start-8 row-span-2"
+      ></div>
+    </div>
+  </body>
+</html>
